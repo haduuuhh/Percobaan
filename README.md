@@ -1,2 +1,2 @@
-# Percobaan
-:v
+# bot
+Discord bot
