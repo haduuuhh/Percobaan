@@ -135,7 +135,7 @@ client.on('message', message => {
 client.on("ready", () =>{
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence({
-        status: "idle",  //You can show online, idle....
+        status: "Do Not Disturb",  //You can show online, idle....
         game: {
             name: "Hacked Client",  //The message shown
             type: "PLAYING" //PLAYING: WATCHING: LISTENING: STREAMING:
