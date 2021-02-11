@@ -16,24 +16,12 @@ client.on('message', message => {
 
     if (message.content === 'ping') {
 
-       message.reply('pong');
+       message.reply('tralala');
 
        }
 
 });
 
-
-
-client.on('message', message => {
-
-    if (message.content === 'hi') {
-
-       message.reply('Halo gan');
-
-       }
- 
-});
- 
 
 
 client.on('message', message => {
