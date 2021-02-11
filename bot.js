@@ -26,18 +26,6 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'hai guys') {
-
-       message.channel.send('lu yang gay dyno');
-
-       }
- 
-});
-
-
-
-client.on('message', message => {
-
     if (message.content === 'hi') {
 
        message.reply('Halo gan');
@@ -52,7 +40,7 @@ client.on('message', message => {
 
     if (message.content === 'P') {
 
-       message.reply('Salam yang bener ngab! :v');
+       message.reply('yang sopan :v');
 
        }
  
@@ -64,7 +52,7 @@ client.on('message', message => {
 
     if (message.content === 'Hi') {
 
-       message.channel.send('Halo gan');
+       message.channel.send('hai juga :D');
 
        }
  
@@ -74,9 +62,9 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'Dyno bau') {
+    if (message.content === 'pengen di sapa') {
 
-       message.channel.send('Emang');
+       message.channel.send('hai @');
 
        }
  
@@ -88,31 +76,7 @@ client.on('message', message => {
 
     if (message.content === 'tes') {
 
-       message.channel.send('APA TES TES');
-
-       }
- 
-});
-
-
-
-client.on('message', message => {
-
-    if (message.content === 'Tes') {
-
-       message.channel.send('APA TES TES');
-
-       }
- 
-});
-
-
-
-client.on('message', message => {
-
-    if (message.content === 'p') {
-
-       message.channel.send('Salam yang bener ngab! :v');
+       message.channel.send('ngelag? :v');
 
        }
  
@@ -124,7 +88,7 @@ client.on('message', message => {
 
     if (message.content === 'IKAN HIU MAKAN TOMAT') {
 
-       message.channel.send('GOBLOG!!!! :v');
+       message.channel.send('cakep. eh salah :v');
 
        }
  
