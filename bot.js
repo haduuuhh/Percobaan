@@ -52,7 +52,7 @@ client.on('message', message => {
 
     if (message.content === 'pengen di sapa') {
 
-       message.reply('hi');
+       message.reply('hi :D');
 
        }
  
@@ -65,18 +65,6 @@ client.on('message', message => {
     if (message.content === 'tes') {
 
        message.channel.send('APA TES TES :v');
-
-       }
- 
-});
-
-
-
-client.on('message', message => {
-
-    if (message.content === 'IKAN HIU MAKAN TOMAT') {
-
-       message.channel.send('cakep. eh salah :v');
 
        }
  
