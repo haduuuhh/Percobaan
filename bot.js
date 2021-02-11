@@ -75,9 +75,9 @@ client.on("ready", () =>{
 
 client.on('message', message => {
 
-    if (message.content === 'P') {
+    if (message.content === 'IKAN HIU MAKAN TOMAT') {
 
-       message.reply('CAKEEPPP, eh salah');
+       message.reply('CAKEEPPP, eh salah :v');
 
        }
  
