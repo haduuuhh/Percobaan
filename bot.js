@@ -28,7 +28,7 @@ client.on('message', message => {
 
     if (message.content === 'P') {
 
-       message.reply('yang sopan :v');
+       message.reply('males ah kamu ga sopan  :v');
 
        }
  
