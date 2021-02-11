@@ -26,18 +26,6 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'IKAN HIU MAKAN TOMAT') {
-
-       message.channel.send('CAKEPPP.  eh salah ;v');
-
-       }
- 
-});
-
-
-
-client.on('message', message => {
-
     if (message.content === 'P') {
 
        message.reply('yang sopan :v');
@@ -82,6 +70,18 @@ client.on("ready", () =>{
         }
     });
  });
+
+
+
+client.on('message', message => {
+
+    if (message.content === 'P') {
+
+       message.reply('CAKEEPPP, eh salah');
+
+       }
+ 
+});
 
 
 
