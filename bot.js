@@ -28,7 +28,7 @@ client.on('message', message => {
 
     if (message.content === 'IKAN HIU MAKAN TOMAT') {
 
-       message.channel.send('a');
+       message.channel.send('CAKEPPP.  eh salah ;v');
 
        }
  
@@ -50,21 +50,9 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'Hi') {
-
-       message.channel.send('hai juga :D');
-
-       }
- 
-});
-
-
-
-client.on('message', message => {
-
     if (message.content === 'pengen di sapa') {
 
-       message.channel.send('hai @');
+       message.reply('hi');
 
        }
  
@@ -76,7 +64,7 @@ client.on('message', message => {
 
     if (message.content === 'tes') {
 
-       message.channel.send('ngelag? :v');
+       message.channel.send('APA TES TES :v');
 
        }
  
