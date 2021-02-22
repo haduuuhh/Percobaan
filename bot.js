@@ -26,6 +26,18 @@ client.on('message', message => {
 
 client.on('message', message => {
 
+    if (message.content === 'pengen di sapa') {
+
+       message.reply('hi :D');
+
+       }
+ 
+});
+
+
+
+client.on('message', message => {
+
     if (message.content === 'P') {
 
        message.reply('males ah kamu ga sopan  :v');
@@ -38,9 +50,21 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === 'pengen di sapa') {
+    if (message.content === '/rp') {
 
-       message.reply('hi :D');
+       message.reply('set to mode roleplay');
+
+       }
+ 
+});
+
+
+
+client.on('message', message => {
+
+    if (message.content === '/occ') {
+
+       message.reply('set to mode out of character');
 
        }
  
