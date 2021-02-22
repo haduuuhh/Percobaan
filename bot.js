@@ -62,7 +62,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === '/occ') {
+    if (message.content === '/ooc') {
 
        message.reply('set to mode out of character');
 
