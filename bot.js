@@ -2,11 +2,14 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
  
-
+const PREFIX = '!'
 
 client.on('ready', () => {
 
     console.log('Ready Eak! :v');
+    console.log(`${client.user.username} is available now!`)
+    var activities = [ `${client.guilds.cache.size} servers`, `${client.users.cache.size} users!` ], i = 0;
+    setInterval(() => bot.user.setActivity(`${PREFIX}help | ${activities[i++ % activities.length]}`, { type: "WATCHING" }),5000)
 
 });
 
@@ -106,6 +109,8 @@ client.on('message', message => {
        }
  
 });
+  
+    
 
 
 
